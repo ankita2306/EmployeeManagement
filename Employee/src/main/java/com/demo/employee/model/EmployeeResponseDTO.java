@@ -1,10 +1,9 @@
-package com.demo.employee.response;
-
+package com.demo.employee.model;
 
 import lombok.Data;
 
 @Data
-public class EmployeeResponse {
+public class EmployeeResponseDTO {
     private int id;
     private String name;
     private String email;
